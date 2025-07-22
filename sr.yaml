@@ -1,11 +1,11 @@
 schemaVersion: 1.0.0
 notify:
   slack:
-    channelName: space-kitt-ckbfloorplansuite
+    channelName: merch_space-tooling
 applications:
-  - name: ADD_TO_UNUSED
-    key: ADD_TO_UNUSED
-    description: Exe to Add Unused PPOGs to Floorplans
+  - name: CKB-FLOORPLAN-TOOLING
+    key: CKB-FLOORPLAN-TOOLING
+    description: CKB_Floorplan_Tooling
     organization: ISD - Space Application Development
     teamRostersProductId: 1415
     companyCatalog: true
