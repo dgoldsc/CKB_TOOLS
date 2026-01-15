@@ -1,0 +1,33 @@
+schemaVersion: 1.0.0
+notify:
+  slack:
+    channelName: merch_space-tooling
+applications:
+  - name: CKB-FLOORPLAN-TOOLING
+    key: CKB-FLOORPLAN-TOOLING
+    description: CKB_Floorplan_Tooling
+    organization: ISD - Space Application Development
+    teamRostersProductId: 1415
+    companyCatalog: true
+    businessCriticality: MINOR
+    communication:
+      email:
+        - address: dgoldsc@email.wal-mart.com
+    members:
+      - homeoffice\dgoldsc
+    environments:
+      - name: dev
+        type: DEVELOPMENT
+        consumerIdInfos:
+          - consumerId: a4d0389c-cbe7-48b0-8764-7933b51cbeb9
+            publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8dYuiS+yMb2OZTAT1xsP/zF85kZAfYqj79NB3NgCDeFEpU7yDpiRhZFXyLKKjIUsvg4pohFs9zgxyfWNRqgnkXq0wtLPKUWzm+U8rIY8PoRLkWWJgYAavnZ6deL1uYCcsJVa09Sxu/tDtKqR/If8tZ6htEMngCY4o04KmtkMdQwkvogoXnmc+WekZauEn9fpV3Ef4iHsfdgCEur9qQSaS/ghCTm+ABeKIpoFWD/NJBkzNKsAnT62QLSLBgXcAPwPYCA6w6miI0HSb69Ui41fq9Bj3Jd26evC+OQVPMjFrxr0lMsl5aH2RLOe206gC5LDJDvcdsdBEjbAVpsBHzQmIwIDAQAB
+    - name: stg
+        type: STAGING
+        consumerIdInfos:
+          - consumerId: c51e711b-d763-40eb-80ae-02f2e60fcc95
+            publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8dYuiS+yMb2OZTAT1xsP/zF85kZAfYqj79NB3NgCDeFEpU7yDpiRhZFXyLKKjIUsvg4pohFs9zgxyfWNRqgnkXq0wtLPKUWzm+U8rIY8PoRLkWWJgYAavnZ6deL1uYCcsJVa09Sxu/tDtKqR/If8tZ6htEMngCY4o04KmtkMdQwkvogoXnmc+WekZauEn9fpV3Ef4iHsfdgCEur9qQSaS/ghCTm+ABeKIpoFWD/NJBkzNKsAnT62QLSLBgXcAPwPYCA6w6miI0HSb69Ui41fq9Bj3Jd26evC+OQVPMjFrxr0lMsl5aH2RLOe206gC5LDJDvcdsdBEjbAVpsBHzQmIwIDAQAB
+      - name: prod
+        type: PRODUCTION
+        consumerIdInfos:
+          - consumerId: 34376014-120e-44fa-a1db-2c9bea26ac03
+            publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8dYuiS+yMb2OZTAT1xsP/zF85kZAfYqj79NB3NgCDeFEpU7yDpiRhZFXyLKKjIUsvg4pohFs9zgxyfWNRqgnkXq0wtLPKUWzm+U8rIY8PoRLkWWJgYAavnZ6deL1uYCcsJVa09Sxu/tDtKqR/If8tZ6htEMngCY4o04KmtkMdQwkvogoXnmc+WekZauEn9fpV3Ef4iHsfdgCEur9qQSaS/ghCTm+ABeKIpoFWD/NJBkzNKsAnT62QLSLBgXcAPwPYCA6w6miI0HSb69Ui41fq9Bj3Jd26evC+OQVPMjFrxr0lMsl5aH2RLOe206gC5LDJDvcdsdBEjbAVpsBHzQmIwIDAQAB
